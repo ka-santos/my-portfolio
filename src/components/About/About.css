@@ -1,0 +1,156 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 10%;
+  background: #f5f5f3;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.about-title span {
+  color: #8b9b72;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.about-title h2 {
+  font-size: 58px;
+  font-family: serif;
+  color: #1f2a1f;
+  margin-top: 10px;
+}
+
+.about-container {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-left p {
+  color: #53614d;
+  line-height: 1.9;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.skills h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #1f2a1f;
+}
+
+.skill {
+  margin-bottom: 25px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #2c3528;
+  font-weight: 500;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background: #d9d2bf;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: #556b2f;
+  border-radius: 20px;
+}
+
+.about-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.about-card {
+  background: #f3eee2;
+  border: 1px solid #d8c9a7;
+  border-radius: 22px;
+  padding: 35px;
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 15px;
+  background: #e7e0cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #556b2f;
+  margin-bottom: 25px;
+}
+
+.icon svg {
+  font-size: 24px;
+}
+
+.about-card h4 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #1f2a1f;
+}
+
+.about-card p {
+  color: #5d6957;
+  line-height: 1.7;
+}
+
+@media (max-width: 1100px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding: 100px 7%;
+  }
+
+  .about-title h2 {
+    font-size: 42px;
+  }
+
+  .about-right {
+    grid-template-columns: 1fr;
+  }
+
+  .about-left p {
+    font-size: 18px;
+  }
+
+  .skills h3 {
+    font-size: 28px;
+  }
+
+  .about-card h4 {
+    font-size: 24px;
+  }
+}

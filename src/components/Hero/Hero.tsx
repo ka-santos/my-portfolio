@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import "./Hero.css"
 
 export default function Hero() {
   return (
