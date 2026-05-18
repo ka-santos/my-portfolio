@@ -29,9 +29,12 @@ export default function About() {
           <div className="skills">
             <h3>Habilidades</h3>
 
-            <SkillBar title="React" percentage={90} />
-            <SkillBar title="JavaScript" percentage={95} />
-            <SkillBar title="TypeScript" percentage={85} />
+            <SkillBar title="CSS" percentage={90} />
+            <SkillBar title="HTML" percentage={90} />
+            <SkillBar title="React" percentage={80} />
+            <SkillBar title="JavaScript" percentage={75} />
+            <SkillBar title="TypeScript" percentage={75} />
+            <SkillBar title="Node.JS" percentage={65} />
           </div>
         </div>
 

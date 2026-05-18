@@ -1,0 +1,209 @@
+.contact{
+  width:100%;
+  min-height:100vh;
+
+  padding:120px 10%;
+
+  background: #f7f4ec;
+}
+
+.contact-title{
+  text-align:center;
+
+  margin-bottom:80px;
+}
+
+.contact-title span{
+  color:#9aa17b;
+
+  font-size:14px;
+  font-weight:600;
+
+  letter-spacing:2px;
+}
+
+.contact-title h2{
+  font-size:64px;
+
+  color:#1f2a1f;
+
+  margin:12px 0;
+
+  font-family:serif;
+}
+
+.contact-title p{
+  color:#6d7466;
+
+  font-size:18px;
+}
+
+.contact-container{
+  display:flex;
+
+  justify-content:space-between;
+
+  gap:100px;
+}
+
+.contact-info{
+  flex:1;
+
+  position:relative;
+}
+
+.info-card{
+  display:flex;
+  align-items:center;
+
+  gap:18px;
+
+  margin-bottom:28px;
+}
+
+.info-icon{
+  min-width:58px;
+  height:58px;
+
+  border-radius:16px;
+
+  background:#e9e8e2;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  color:#6f7c5a;
+
+  font-size:18px;
+}
+
+.info-card span{
+  color:#8a917e;
+
+  font-size:15px;
+}
+
+.info-card h4{
+  color:#374132;
+
+  font-size:18px;
+
+  margin-top:4px;
+}
+
+.contact-blur{
+  width:320px;
+  height:320px;
+
+  background:#d9dfcf;
+
+  filter:blur(120px);
+
+  opacity:0.4;
+
+  position:absolute;
+
+  left:-50px;
+  bottom:-100px;
+
+  border-radius:50%;
+}
+
+.contact-form{
+  flex:1;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:24px;
+}
+
+.input-group{
+  display:flex;
+  flex-direction:column;
+
+  gap:10px;
+}
+
+.input-group label{
+  color:#4d5648;
+
+  font-weight:600;
+}
+
+.input-group input,
+.input-group textarea{
+  width:100%;
+
+  border:none;
+
+  outline:none;
+
+  padding:18px 20px;
+
+  border-radius:14px;
+
+  background:#f3eee2;
+
+  border:1px solid #ddd0b0;
+
+  font-size:16px;
+
+  color:#374132;
+}
+
+.input-group textarea{
+  height:180px;
+
+  resize:none;
+}
+
+.contact-form button{
+  height:58px;
+
+  border:none;
+
+  border-radius:14px;
+
+  background:var(--gradient-primary);
+
+  color:white;
+
+  font-size:16px;
+  font-weight:600;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  gap:12px;
+
+}
+
+.contact-form button:hover{
+  background:var(--primary);
+
+  box-shadow:
+    0 8px 20px rgba(127, 141, 111, 0.25);
+}
+
+@media (max-width:1000px){
+  .contact-container{
+    flex-direction:column;
+  }
+}
+
+@media (max-width:700px){
+  .contact{
+    padding:100px 7%;
+  }
+
+  .contact-title h2{
+    font-size:46px;
+  }
+
+  .info-card h4{
+    font-size:20px;
+  }
+}
