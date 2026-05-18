@@ -3,7 +3,7 @@ import "./Hero.css"
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="inicio">
       <div className="heroText">
         <span className="miniText">OLÁ, EU SOU</span>
         
@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="heroImage">
         <div className="circle">
           <div className="innerCircle">
-            <span>KS</span>
+            <span>K.S</span>
           </div>
         </div>
       </div>

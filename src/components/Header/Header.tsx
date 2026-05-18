@@ -3,7 +3,7 @@ import "./Header.css"
 export default function Header() {
   return (
     <header className="header">
-      <div className="logo">Portfolio</div>
+      <div className="logo">K.S</div>
 
       <nav>
         <a href="#inicio">Início</a>
@@ -13,9 +13,7 @@ export default function Header() {
         <a href="">Contato</a>
       </nav>
 
-      <button className="themeButton">
-        ○
-      </button>
+
     </header>
   )
 }
